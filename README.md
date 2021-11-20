@@ -1,2 +1,3 @@
-# algorithms-ds
-Implementation of Common Python Algorithms and Data Structures
+## Algorithms and Data Structures
+
+In few days to come, I will learn algorithms and data structures. I will takes notes in this repository. 
