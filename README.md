@@ -23,4 +23,4 @@ Why not learn how to effectively handle such data? Why not learn how to control 
 * [The Algorithms - Python](https://github.com/TheAlgorithms/Python)
 * [Interactive Coding Challenges](https://github.com/donnemartin/interactive-coding-challenges)
 
-I will go into all of those resources, but I might randomly peep in some of them.
+I will not go into all of those resources, but I might randomly peep in some of them.
