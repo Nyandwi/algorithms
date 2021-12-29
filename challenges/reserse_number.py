@@ -1,7 +1,7 @@
 def reverse_number(x):
     """
     :type x: int
-    :rtype: reverses=d number
+    :rtype: reversed number
     """
     reverse = 0
         

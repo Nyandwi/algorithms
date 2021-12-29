@@ -90,7 +90,7 @@ Playlist: [Youtube](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3T
   * Maintain that the items in array A[i]=Xi
   * Geometric are dictated by the last term. 
 
-### Lecture 3 - Introduction to Algorithms - Problem Session 1: Asymptotic Behavior of Functions and Double Ended..
+### Problem Session Lecture: Asymptotic Behavior of Functions and Double Ended..
 
 This is a problem set session. Watched it. 
 
