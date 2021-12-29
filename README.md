@@ -14,7 +14,7 @@ Why not learn how to effectively handle such data? Why not learn how to control 
 * Book: Cracking Coding Interviews
   
 
-Other Resources that I will probably don't use:
+Other Resources that I will probably not use:
 * Book: Data Structures and Algorithms in Python by Michael T. Goodrich
 * [Princeton Algorithms and Data Structures](https://algs4.cs.princeton.edu/home/) by Robert Sedgewick and Kevin Wayne..There is also a Coursera course on this. 
 * Course: Data Structures and Algorithms in Python on Free Code Camp, [Youtube](https://www.youtube.com/watch?v=pkYVOmU3MgA), [Website](https://jovian.ai/learn/data-structures-and-algorithms-in-python)
