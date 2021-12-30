@@ -42,7 +42,7 @@ Concepts:
 ### Walking through the code
 
 * Listen: pay close attention to any info about the problem. 
-* Get a brute force solution ASAP. but don't code it yet. 
+* Get a brute force solution ASAP. but don't code it yet. Don't be afraid to share it. 
 * Optimize the brute force and get a better solution. Try to think about time vs space complexity. 
 * Walk through the approach in the detail and make sure you understand it before coding. 
 * Implement the code. The goal is to write beautiful code. 
@@ -50,3 +50,25 @@ Concepts:
 * Keep talking. Your interviewer want to know how you are interviewing. 
 
 ![image](../images/walk.png)
+
+##### Listen carefully:
+
+* Make sure you hear the problem correctly.
+* Ask questions where you are not sure.
+* Listen carefully!!!
+* Takes a notes on the whiteboard.
+* Make a time and space trade-off.
+  
+##### Optimizing a solution after you have a brute force:
+* look for any unused information and leverage them. If interviewer said array is sorted, then you can make the use of such information. 
+* Solve it incorrectly. An inneficient solution can lead to efficient solution. 
+* Make time vs space trade-offs. 
+* Use hash tables. They are widely used in interview and should be on top of your mind. 
+  
+##### Walk through...
+* Understand the problem before coding. 
+* Don't write pseudocode. Just write steps lile 1: search array, 2:find biggest, 3: insert in heap, etc...
+  
+
+*****WRITE BETTER CODE*****
+
