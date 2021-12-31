@@ -15,6 +15,7 @@ Why not learn how to effectively handle such data? Why not learn how to control 
 ### Implemented Algorithms
 
 * [Quick Sort](algorithms/quick-sort.py), [About Quick Sort](algorithms/quick-sort.md)
+* [Merge Sort](algorithms/merge-sort.py), [About Merge Sort](algorithms/merge-sort.md)
 
 ### Primary Resources
 
