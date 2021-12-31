@@ -1,6 +1,7 @@
 ## Quick Sort
 
 * Quick sort is a `divide and conquer` algorithm that uses a recursive approach to sort an array or a list of values. 
+* Divide and conquer approach is a technique that involves dividing the problem into smaller subproblems and recursively solve those subproblems, and later combine the solutions to create the final solution to the orginal problem.  
 * The main idea is to partition the array or list into two parts, the left side which is less than the pivot value, and the right side which is greater than the pivot value. 
 * If the array contains the repeated values, then we can have multiple similar similar values. If the values in array are distinct or unique, then pivot value is only just a single value. 
 * In most cases, the pivot value is the last element in the array. But there is a randomized version of quick sort called `randomized quick sort` that uses a random element as the pivot value.
