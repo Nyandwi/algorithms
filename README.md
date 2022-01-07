@@ -18,6 +18,7 @@ Algorithms and data structures are important for not only getting around the cod
 * [Python - Basics](https://github.com/Nyandwi/python_basics), Revise it!!
 * Python - Advanced, TBD
 * Maths for ML, TBD
+* ML System Design, Later
 
 ### Primary Resources
 
