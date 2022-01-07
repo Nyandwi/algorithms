@@ -3,7 +3,7 @@
 * Quick sort is a `divide and conquer` algorithm that uses a recursive approach to sort an array or a list of values. 
 * Divide and conquer approach is a technique that involves dividing the problem into smaller subproblems and recursively solve those subproblems, and later combine the solutions to create the final solution to the orginal problem.  
 * The main idea is to partition the array or list into two parts, the left side which is less than the pivot value, and the right side which is greater than the pivot value. 
-* If the array contains the repeated values, then we can have multiple similar similar values. If the values in array are distinct or unique, then pivot value is only just a single value. 
+* If the array contains the repeated values, then we can have multiple similar values. If the values in array are distinct or unique, then pivot value is only just a single value. 
 * In most cases, the pivot value is the last element in the array. But there is a randomized version of quick sort called `randomized quick sort` that uses a random element as the pivot value.
 
 
@@ -28,7 +28,7 @@ def quick_sort(A, low, high):
 
 ```
 
-* The runtime of quick sort is O(N^2) in the worst case scenario. Quick sort has high runtime complexity because it is a recursive algorithm. 
+* The runtime of quick sort is O(N^2) in the worst case scenario. Quick sort has high runtime complexity because it is a recursive algorithm. The average runtime is `O(NlogN)`.
 * The randomized quick sort (with random pivot) has a runtime complexity of O(NlogN), where N is the number of elements in the array.
 * Is quick sort really quick? Well, maybe not. But it is a good choice for sorting small arrays, and it can perform much faster than merge or heap sort.
-* The next is the real [implementation](algorithms/quick-sort.py) of a quick sort. 
+* The next is the real [implementation](algorithms/quick-sort.py) of a quick sort.
