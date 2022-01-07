@@ -16,6 +16,7 @@ Why not learn how to effectively handle such data? Why not learn how to control 
 
 * [Quick Sort](algorithms/quick-sort.py), [About Quick Sort](algorithms/quick-sort.md)
 * [Merge Sort](algorithms/merge-sort.py), [About Merge Sort](algorithms/merge-sort.md)
+* [Heap Sort](algorithms/heap-sort.py), [About Heap Sort](algorithms/heap-sort.md)
 
 ### Primary Resources
 
@@ -24,7 +25,7 @@ Why not learn how to effectively handle such data? Why not learn how to control 
 * Book: Algorithms Design Manual by Steven S. Skiena
 * Book: Cracking Coding Interviews
   
-#### Other Resources that I will probably not use:
+#### Other Resources that I will probably not use can occasionally do:
 * Book: Data Structures and Algorithms in Python by Michael T. Goodrich
 * [Princeton Algorithms and Data Structures](https://algs4.cs.princeton.edu/home/) by Robert Sedgewick and Kevin Wayne..There is also a Coursera course on this. 
 * Course: Data Structures and Algorithms in Python on Free Code Camp, [Youtube](https://www.youtube.com/watch?v=pkYVOmU3MgA), [Website](https://jovian.ai/learn/data-structures-and-algorithms-in-python)

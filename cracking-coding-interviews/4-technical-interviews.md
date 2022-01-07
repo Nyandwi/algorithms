@@ -72,3 +72,19 @@ Concepts:
 
 *****WRITE BETTER CODE*****
 
+#### What good code looks like:
+* Good code should operate correctly on all expected ad unexpected inputs. 
+* The code should operate efficiently in terms of both time and space. 
+* Good code are simple. If you can do something in 1 lines of code than 10, do it!
+* Good codes are readable, add comments wherever necessary. 
+* Good code should me maintainable. 
+
+More traits of good code:
+* Modularized. Divide codes into chunks for easy testing. 
+* Flexible and robust. 
+* Error handling. 
+
+#### To do:
+* Read this chapter again
+* Read Big O
+* Move to questions ASAP
