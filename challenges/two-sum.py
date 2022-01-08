@@ -1,5 +1,7 @@
 #### TWO SUM ####
 
+### 1st Method
+
 #Source:leetcode
 
 # Given Given an array of integers nums and an integer target, 
@@ -30,21 +32,40 @@ arr = [1,3,4,5]
 i1, i2 = two_sum(arr, 9)
 print(f"{i1}, {i2}")
 
-#Runtime: O(logn)
+Runtime: O(logn)
 
+# 2nd Method: COMPLIMENT METHOD
+
+def two_sum_2(arr, target):
+    """
+    Given an array and target, return two indices of values that add up to target
+    Answer: Loop through the array, subtracting target to every value...
+    If the values exists, the difference of target and i and summation to arr[i]...
+    Should be equal to target. 
+    """
+
+    n = len(arr)
+
+    for i in range(n):
+        comp = target - arr[i]
+        
+        if comp in arr and arr[i] + comp == target:
+            return i, arr.index(comp)
+
+#runtime: Linear, O(1)
 
 
 ### A Concise implementation (official solution) ###
 
-# class SolutionOfficial:
+class SolutionOfficial:
 
-#     def twoSum(self, nums:List[int], target:int) -> List[int]:
-#         hashmap = {}
+    def twoSum(self, nums:List[int], target:int) -> List[int]:
+        hashmap = {}
 
-#         for i in range(len(nums)):
-#             hashmap[num[i]] = i
-#             complement = target - num[i]
+        for i in range(len(nums)):
+            hashmap[num[i]] = i
+            complement = target - num[i]
 
-#             if complement in hashmap and hashmap[complement] != i:
-#                 return [i, hashmap[complement]]
+            if complement in hashmap and hashmap[complement] != i:
+                return [i, hashmap[complement]]
 
