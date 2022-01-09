@@ -10,10 +10,27 @@ Algorithms and data structures are important for not only getting around the cod
 * [Merge Sort](algorithms/merge-sort.py), [About Merge Sort](algorithms/merge-sort.md)
 * [Heap Sort](algorithms/heap-sort.py), [About Heap Sort](algorithms/heap-sort.md)
 * [Binary Search](algorithms/binary-search.py), [About Binary Search](algorithms/binary-search.md)
+* Breadth-first Search
+* Depth-first Search
 
 ### Revised Data Structures
 
-### Other Things Learning Along
+* Linked lists
+* Trees, Tries, [Graphs](data-structures/graphs-intro.md)
+* Stacks and Queues
+* Heaps
+* Vectors/ArrayLists
+* Hash tables!!!
+
+### Important Concepts
+
+* Recursion
+* Dynamic Programming
+* Big O - time and space complexity
+* Bit manipulation
+* Memory(stack vs heap)
+
+### Other Things to Learn Along
 
 * [Python - Basics](https://github.com/Nyandwi/python_basics), Revise it!!
 * Python - Advanced, TBD

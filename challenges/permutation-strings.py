@@ -11,3 +11,4 @@ def permutation_str(str1, str2):
         return True
 
 # Concise answer 2:
+
