@@ -44,7 +44,7 @@ Algorithms and data structures are important for not only getting around the cod
 * Book: Cracking Coding Interviews
 * Book: Introduction to Algorithms by Thomas H. Cormen et al.
 * LeetCode Algorithms and DS questions
-* Algorithms by Abdul Bari [Youtube](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+* Algorithms by Abdul Bari, [Youtube](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 
 ### Other Territiary Resources
 
