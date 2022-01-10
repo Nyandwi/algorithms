@@ -22,7 +22,7 @@ Algorithms and data structures are important for not only getting around the cod
 * Vectors/ArrayLists
 * Hash tables!!!
 
-### Important Concepts
+### Revised Concepts
 
 * Recursion
 * Dynamic Programming
