@@ -6,11 +6,11 @@ Algorithms and data structures are important for not only getting around the cod
 
 ### Revised Algorithms
 
-* [Quick Sort](algorithms/quick-sort.py), [About Quick Sort](algorithms/quick-sort.md)
-* [Merge Sort](algorithms/merge-sort.py), [About Merge Sort](algorithms/merge-sort.md)
-* [Heap Sort](algorithms/heap-sort.py), [About Heap Sort](algorithms/heap-sort.md)
-* [Binary Search](algorithms/binary-search.py), [About Binary Search](algorithms/binary-search.md)
-* Breadth-first Search
+* Quick Sort: [Implementation](algorithms/quick-sort.py), [Notes](algorithms/quick-sort.md)
+* Merge Sort:[Implementation](algorithms/merge-sort.py), [Notes](algorithms/merge-sort.md)
+* Heap Sort: [Implementation](algorithms/heap-sort.py), [Notes](algorithms/heap-sort.md)
+* Binary Search: [Implementation](algorithms/binary-search.py), [Notes](algorithms/binary-search.md)
+* Breadth-first Search: [Implementation](algorithms/breadth-first-search.py), [Notes](algorithms/breadth-first-search.md)
 * Depth-first Search
 
 ### Revised Data Structures
