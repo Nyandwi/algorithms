@@ -19,19 +19,43 @@ def permutation_str(str1, str2):
 def string_permutation(s1,s2):
     """
     Edge case: If the strings are not the same length, they are not permutations of each other.
+    Count the occurence of each individual character in each string.
+    If the counts are the same, the strings are permutations of each other.
+
+    Counts are stored in array of 128 size. This is an assumption that we are using ASCII characters. 
+    The number of characters in ASCII is 128. 
     """
     if len(s1) != len(s2):
         return False
 
-    count = [0] * 128
+    count_s1 = [0] * 128
     for char in s1:
-        count[ord(char)] += 1
+        count_s1[ord(char)] += 1
 
+    count_s2 = [0] * 128
     for char in s2:
-        count[ord(char)] -= 1
-        if count[ord(char)] < 0:
-            return False
-        return True
+        count_s2[ord(char)] += 1
+    
+    if count_s1 == count_s2:
+      return True
+    else:
+      return False
 
-## There is something off in the implementation. 
-# Test the algorithm on many inputs strings. 
+## There is something off in the implementation: Solved 
+# Test the algorithm on many inputs strings: It works
+
+## Testing the algoritm on different inputs
+#string_permutation('foo','ofo')
+## Output: True
+
+#string_permutation('foo','hhdnd')
+## Output: False
+
+#string_permutation('foo','gbf')
+## Output: False
+
+#string_permutation('foo','fcd')
+#Output: False
+
+#string_permutation('foo','fog')
+## Output: False

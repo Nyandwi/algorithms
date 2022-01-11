@@ -1,2 +1,2 @@
-## Introduction to Algorithm Design
+## 1. Introduction to Algorithm Design
 
