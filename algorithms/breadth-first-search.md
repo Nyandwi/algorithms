@@ -30,15 +30,24 @@ References:
 * Given the graph G = (V,E), and distinguished vertex s, breadth-first search systematically explores the edges of G to `discover` every vertex that is reachable from s. It does that by computing the distance(smallest number of edges) from s to each reachable vertex. 
 * It produces a `breadth-first tree` with root s that contains all reachable vertices. With the exception of root, each node in the tree has only one parent node. And that makes breadth-first searches a suitable searching algorithm for shortest path problems.
 * Breadth-first search is named so because it expands the frontier between discovered vertices and undiscovered vertices unformly across the breadth of the frontier. Simply put, the algorithm discovers all vertices at distance k from s before discovering any vertices at distance k+1. 
-* As we saw above in graph traversal, in order to keep track of progress, BFS colors each vertex white, gray, or black. In the beginning, all vertices are white, but when a given vertex is `discovered` for the first time, it change color to gray and then black...just to track the discovered vertices and vertices that are yet to be discovered. Both gray and black vertices are discovered vertices, but BFS distinguishes between them to ensure that the search proceeds in a breadth-first manner. All gray vertices may have adjacent vertices that are not discovered yet, but all adjacent vertices in BFS have been discovered. 
+* As we saw above in graph traversal, in order to keep track of progress, BFS colors each vertex white, gray, or black. In the beginning, all vertices are white(undiscovered), but when a given vertex is `discovered` for the first time, it change color to gray and then black...just to track the discovered vertices and vertices that are yet to be discovered. Both gray and black vertices are discovered vertices, but BFS distinguishes between them to ensure that the search proceeds in a breadth-first manner. All gray vertices may have adjacent vertices that are not discovered yet, but all adjacent vertices in black vertex have been discovered and processed. 
 
 How the BFS construct a breadth-first tree:
 * The breadth-first tree initially have its only root or source vertex s. 
 * Whenever the search `discovers` a white vertex v in the course of scanning the adjacency list of an already discovered vertex u, the vertex v and the edge(u,v) are added to the tree. 
+* All discovered vertices are stored in a queue, and they are processed in FIFO(first-in, first-out) manner. The oldest vertices or those that are close to the root are expanded first. 
 * u is the `predecessor` or `parent` of v in the breadth-first tree. 
 * Since every vertex is discovered at most once, it has only one parent. The `predecessor` and `descendent` relationships in the breadth-first tree are defined relative to the root vertex s.
 * If u is on the simple path(no self-loop) in the tree from the root s to vertex v, then u is an ancestor or parent of v and v is a descendant or child of u. 
-* The graph `G = (V,E)` is represented using adjacency lists. 
+* The graph `G = (V,E)` is represented using adjacency lists.
+* The runtime of BFS is `O(V+E)`, where V are no of vertices and E edges. 
+
+#### BFS Summary:
+* In BFS, all vertices are undiscovered in the beginning. 
+* All vertices that are reachable from the source vertices are discovered first. In other words, all outgoing vertices of source vertex are discovered first. The outgoing vertices of the vertices being discovered are in state of `undiscovered`. 
+* The discovered vertices are stored in queue and they are stored stored in queue, the vertices that were discovered first are processed first in FIFO manner(first-in, first-out).
+* Breadth: width...Discover all adjacent vertices first.
+* As we will see in depth-first search, the main differences between DFS and BFS is how the discovered vertices are stored. In BFS, they are stored in queue, and in DFS(FIFO), they are stored in stack(LIFO).
 
 Next step:
 * Revise the notes and make sure I understand them. 
