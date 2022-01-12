@@ -76,4 +76,4 @@ Algorithms and data structures are important for not only getting around the cod
 
 The notes about algorithms and data structures are the most important takeaways from the mentioned primary resources. Some lines/ideas revised in notes may be completely similar or closely connected as this repo was done for learning purpose and to act as a reference for my progress. Same thing for implementations of those algorithms and data structures.
 
-Thanks to my friend Gedeon Muhawenayo for reviewing materials in this repository and suggesting good resources for Algorithms.
+Thanks to my friend Gedeon Muhawenayo for supporting my learning journey, reviewing materials in this repository and suggesting good resources for Algorithms.
