@@ -6,21 +6,23 @@ Algorithms and data structures are important for not only getting around the cod
 
 ### Revised Algorithms
 
-* Quick Sort: [Implementation](algorithms/quick-sort.py), [notes](algorithms/quick-sort.md)
-* Merge Sort:[Implementation](algorithms/merge-sort.py), [notes](algorithms/merge-sort.md)
-* Heap Sort: [Implementation](algorithms/heap-sort.py), [notes](algorithms/heap-sort.md)
-* Binary Search: [Implementation](algorithms/binary-search.py), [notes](algorithms/binary-search.md)
-* Breadth-first Search: [Implementation](algorithms/breadth-first-search.py), [notes](algorithms/breadth-first-search.md)
-* Depth-first Search: [Implementation](algorithms/depth-first-search.py), [notes](algorithms/depth-first-search.md)
+* Insertion Sort: [code](algorithms/insertion-sort.py), [notes](algorithms/insertion-sort.md)
+* Quick Sort: [code](algorithms/quick-sort.py), [notes](algorithms/quick-sort.md)
+* Merge Sort:[code](algorithms/merge-sort.py), [notes](algorithms/merge-sort.md)
+* Heap Sort: [code](algorithms/heap-sort.py), [notes](algorithms/heap-sort.md)
+* Binary Search: [code](algorithms/binary-search.py), [notes](algorithms/binary-search.md)
+* Breadth-First Search: [code](algorithms/breadth-first-search.py), [notes](algorithms/breadth-first-search.md)
+* Depth-First Search: [code](algorithms/depth-first-search.py), [notes](algorithms/depth-first-search.md)
 
 ### Revised Data Structures
 
 * Linked lists
-* Trees, Tries, [Graphs](data-structures/graphs-intro.md)
 * Stacks and Queues
-* Heaps
-* Vectors/ArrayLists
+* Dynamic Arrays(ArrayList)
 * Hash tables!!!
+* Trees, Tries, [Graphs](data-structures/graphs-intro.md)
+* Heaps
+
 
 ### Revised Concepts
 
@@ -50,12 +52,19 @@ Algorithms and data structures are important for not only getting around the cod
 
 ### Primary Resources
 
+#### Algorithms
+
 * Course: MIT Introduction to Algorithms, [Youtube](https://www.youtube.com/watch?v=ZA-tUyM_y7s&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY), [Website](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2020/)
 * Book: Algorithms Design Manual by Steven S. Skiena
 * Book: Cracking Coding Interviews
 * Book: Introduction to Algorithms by Thomas H. Cormen et al.
 * LeetCode Algorithms and DS questions
 * Algorithms by Abdul Bari, [Youtube](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+
+#### Interviews
+
+* [Introduction to Machine Learning Interviews by Chip Huyen](https://huyenchip.com/ml-interviews-book/)
+* [Deep Learning Interviews](https://arxiv.org/abs/2201.00650)
 
 ### Other Resources
 
