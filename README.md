@@ -16,7 +16,7 @@ Algorithms and data structures are important for not only getting around the cod
 
 ### Revised Data Structures
 
-* Linked lists
+* Linked lists: [code](data-structures/linkedlist.py), [notes](data-structures/linkedlist.md)
 * Stacks and Queues
 * Dynamic Arrays(ArrayList)
 * Hash tables!!!
