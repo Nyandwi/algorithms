@@ -6,4 +6,5 @@
  * Example of algorithmic problem: Given an array of values, return the array with sorted values...
  * The 3 main traits of a good algrithm: correctness, efficient, and easy implementation.
  * Correctness is an important property of the algorithm. Algorithm must correctly solve the presented problem.
- * 
+  
+Notes: I am going to stop reading the book end to end. I will instead first cover the important concepts. If I have enough time, then, I will read this book end to end.

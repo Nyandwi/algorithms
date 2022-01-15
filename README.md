@@ -17,7 +17,7 @@ Algorithms and data structures are important for not only getting around the cod
 ### Revised Data Structures
 
 * Linked lists: [code](data-structures/linkedlist.py), [notes](data-structures/linkedlist.md)
-* Stacks and Queues
+* Stacks and Queues: [code](data-structures/stack-queues.py), [notes](data-structures/stack-queues.md)
 * Dynamic Arrays(ArrayList)
 * Hash tables!!!
 * Trees, Tries, [Graphs](data-structures/graphs-intro.md)
@@ -34,13 +34,15 @@ Algorithms and data structures are important for not only getting around the cod
 
 ### Revised: Getting Along Interviews
 
-* ...
-* ...
-* ...
-* ...
-* ...
-* ...
-  
+* Preparation Map
+* Behavioural Questions
+* How to Prepare
+* Walking Through the Problem
+* Techniques for Optimizing and Solving Problems
+* The Traits of Good Code
+* Do's
+* Don't's
+* After Interview
 
 ### Other Things to Learn Along
 
