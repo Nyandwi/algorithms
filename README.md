@@ -47,7 +47,7 @@ Algorithms and data structures are important for not only getting around the cod
 ### Other Things to Learn Along
 
 * [Python - Basics](https://github.com/Nyandwi/python_basics)
-* Python - Advanced - Ongoing
+* [Python - Advanced](https://github.com/Nyandwi/python-advanced) - Ongoing
 * CS Missing Pieces, TDB
 * ML System Design, TBD
 * Maths for ML, TBD
