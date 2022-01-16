@@ -41,7 +41,7 @@
 
 Below is the pseudocode for iterative approach.
 
-```
+```python
 def linked_list_search(L, k):
   x = L.head #first element
   while x != NILL and x.key != k:
@@ -53,7 +53,7 @@ The runtime for the above search is O(n) since it may have to search the whole l
 
   A recursive approach:
 
-  ```
+  ```python
   def linked_search(L, k):
     """
     Given a list, find item k...
@@ -77,7 +77,7 @@ The runtime for the above search is O(n) since it may have to search the whole l
 
 * Given a list whose key attribute has already been set, the insert_list procedures "splices" x into the front of the linked list.
 
-```
+```python
 insert_list(L, x):
   x.next = L.head
   if L.head != NILL:
@@ -92,7 +92,7 @@ The runtime for inserting item on the front of the list is O(1) time. For insert
 
 * To delete the item in a list, we must provide its pointer to the delete function so that it can splice the item out of the list and update pointers. Simply put, to delete the element of the list, we must first call `list-search` to retrieve a pointer to the element.
 
-```
+```python
 def delete_list(L, x):
   if x.prev != NIL:
     x.prev.next = x.next
@@ -102,7 +102,7 @@ def delete_list(L, x):
 ```
 
 If we ignore boundary condition:
-```
+```python
 def delete_list(L, x):
   x.prev.next = x.next
   x.next.prev = x.prev

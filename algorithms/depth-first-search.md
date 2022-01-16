@@ -9,7 +9,7 @@
 * DFS is a recursive graph traversal approach. 
 * Below is the pseudocode of depth-first search. 
 
-```
+```python
 # Reference: Algorithm Design Manual, Skienna
 DFS(G,u):
     state[u] = "discovered"

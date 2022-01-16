@@ -18,7 +18,7 @@ Algorithms and data structures are important for not only getting around the cod
 
 * Linked lists: [code](data-structures/linkedlist.py), [notes](data-structures/linkedlist.md)
 * Stacks and Queues: [code](data-structures/stack-queues.py), [notes](data-structures/stack-queues.md)
-* Dynamic Arrays(ArrayList)
+* Arrays: [Static Array code](data-structures/arrays-sequence-static.py), [Dynamic Array code](data-structures/arrays-sequence-dynamic.py), [notes](data-structures/arrays-sequence.md)
 * Hash tables!!!
 * Trees, Tries, [Graphs](data-structures/graphs-intro.md)
 * Heaps
@@ -46,8 +46,8 @@ Algorithms and data structures are important for not only getting around the cod
 
 ### Other Things to Learn Along
 
-* [Python - Basics](https://github.com/Nyandwi/python_basics), Revise it!!
-* Python - Advanced, TBD
+* [Python - Basics](https://github.com/Nyandwi/python_basics)
+* Python - Advanced - Ongoing
 * CS Missing Pieces, TDB
 * ML System Design, TBD
 * Maths for ML, TBD
