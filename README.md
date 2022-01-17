@@ -1,4 +1,4 @@
-# Algorithms and Data Structures for Machine Learning Interviews
+# Algorithms and Data Structures for Coding Interviews
 
 I want to learn algorithms and data structures to improve my SE skills as I do not have a background in computer science. I will use this repository to track my progress, take notes, and to practice.
 
@@ -8,7 +8,7 @@ Algorithms and data structures are important for not only getting around the cod
 
 * Insertion Sort: [code](algorithms/insertion-sort.py), [notes](algorithms/insertion-sort.md)
 * Quick Sort: [code](algorithms/quick-sort.py), [notes](algorithms/quick-sort.md)
-* Merge Sort:[code](algorithms/merge-sort.py), [notes](algorithms/merge-sort.md)
+* Merge Sort: [code](algorithms/merge-sort.py), [notes](algorithms/merge-sort.md)
 * Heap Sort: [code](algorithms/heap-sort.py), [notes](algorithms/heap-sort.md)
 * Binary Search: [code](algorithms/binary-search.py), [notes](algorithms/binary-search.md)
 * Breadth-First Search: [code](algorithms/breadth-first-search.py), [notes](algorithms/breadth-first-search.md)
@@ -19,7 +19,7 @@ Algorithms and data structures are important for not only getting around the cod
 * Linked lists: [code](data-structures/linkedlist.py), [notes](data-structures/linkedlist.md)
 * Stacks and Queues: [code](data-structures/stack-queues.py), [notes](data-structures/stack-queues.md)
 * Arrays: [Static Array code](data-structures/arrays-sequence-static.py), [Dynamic Array code](data-structures/arrays-sequence-dynamic.py), [notes](data-structures/arrays-sequence.md)
-* Hash tables!!!
+* Hash tables: [Direct Access Array code](data-structures/hash-direct-acess-array.py), [Hash Table Code](data-structures/hash-table.py), [notes](data-structures/hash-tables.md)
 * Trees, Tries, [Graphs](data-structures/graphs-intro.md)
 * Heaps
 
@@ -41,10 +41,10 @@ Algorithms and data structures are important for not only getting around the cod
 * Techniques for Optimizing and Solving Problems
 * The Traits of Good Code
 * Do's
-* Don't's
+* Dont's
 * After Interview
 
-### Other Things to Learn Along
+### Other Related Things
 
 * [Python - Basics](https://github.com/Nyandwi/python_basics)
 * [Python - Advanced](https://github.com/Nyandwi/python-advanced) - Ongoing
@@ -85,6 +85,6 @@ Algorithms and data structures are important for not only getting around the cod
 
 ### Acknowledgements
 
-The notes about algorithms and data structures are the most important takeaways from the mentioned primary resources. Some lines/ideas revised in notes may be completely similar or closely connected as this repo was done for learning purpose and to act as a reference for my progress. Same thing for implementations of those algorithms and data structures.
+The notes about algorithms and data structures are the most important takeaways from the mentioned primary resources. I tried to write simplified notes and added extra ideas wherever necessary, but some lines/ideas may be completely similar or closely connected to those resources. This repo was done for learning purpose and to act as a reference. Same thing for implementations of those algorithms and data structures.
 
-Thanks to my friend Gedeon Muhawenayo for supporting my learning journey, reviewing materials in this repository and suggesting good resources for Algorithms.
+Thanks to my friend Gedeon Muhawenayo for his support on reviewing materials in this repository and suggesting good resources for Algorithms.

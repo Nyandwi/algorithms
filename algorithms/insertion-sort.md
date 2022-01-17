@@ -12,7 +12,7 @@ Image credit: Introduction to Algorithms
 
 Below is the pseudocode of insertion loss
 
-```
+```python
 def insertion_loss(A):
     for j = 2 to A.length
     key = A[j]

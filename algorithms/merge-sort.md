@@ -12,7 +12,8 @@
 * The effiency of merge sort depends on how the sorted subarrays are combined.
 
 Here is the pseudocode for merge sort:
-```
+
+```python
 def merge_sort(A, low, high):
     """
     Sort the array A using merge sort algorithm. 

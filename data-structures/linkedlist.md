@@ -29,7 +29,7 @@
 * Adding a new item at the front(head) takes O(1) time!!! Same for deleting the first item in the list.
 * Inserting or deleting the item at the tail of a list takes O(n) time.
 * The only way to get or find the ith element in the list is to step through the items one by one, which leads to worst-case linear time for `get_at(i)` and `set_at(i,x)` operations. They take `O(n)` runtime.
-* Python builtin list is different from linked list. Read more about (linked list in Python](https://realpython.com/linked-lists-python/).
+* Python builtin list is different from linked list. Read more about [linked list in Python](https://realpython.com/linked-lists-python/).
 
 * Next: Pseudocode for searching, inserting, and deleting item in the list.
 
