@@ -25,7 +25,7 @@ Let's talk more about divide and conquer rule.
 #### Divide and Conquer rule
 
 * One of the most effective way of solving problems is to break them into smaller pieces. Solving smaller problems is like icing on cake. Haha, just like this supervised learning...`If intelligence is a cake, the bulk of the cake is unsupervised learning, the icing on the cake is supervised learning, and the cherry on the cake is reinforcement learning”- Yann LeCun` 
-* So, when we divide the problem into smaller similar problems, we can resursively solve each problem and combine the result to form a full solution. 
+* So, when we divide the problem into smaller similar problems, we can recursively solve each problem and combine the result to form a full solution. 
 * Divide and conquer also foster parallel processing. Different jobs can be decomposited into many tasks on each task can be processed independently on each processor. With the advent of cluster computers and multicore processors. 
 * The above idea is applied in training deep networks. A large network can splitted on multiple GPUs so as to train faster. 
 * Divide and conquer is also applied in dynamic computing. More on it later. 

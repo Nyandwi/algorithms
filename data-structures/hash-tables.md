@@ -53,8 +53,8 @@ def direct_access_delete(T, x):
 Credit: Introduction to Algorithms book, MIT
 
 * If there are no two keys that map to the same direct access index, then we will be able to have a constant time search as the hash table simply acts as a direct access array over the smaller domain m.
-* If the space of possible keys is larger than the number of array indices, i.e $m < u$, then any hash function mapping possible u keys to indices m must map multiple keys to the same array index (shown in pic abovem f(2) = f(5)) by the pigeonhole principle.
-* If two items associted with keys k1 and k2 hash to the same index, i.e $h(k1) = h(k2), the hashes or mapping of k1 and k2 `collides`.
+* If the space of possible keys is larger than the number of array indices, i.e $m < u$, then any hash function mapping possible u keys to indices m must map multiple keys to the same array index (shown in pic above $f(2) = f(5)$) by the pigeonhole principle.
+* If two items associted with keys k1 and k2 hash to the same index, i.e $h(k1) = h(k2)$, the hashes or mapping of `k1` and `k2` `collides`.
 * The effective technique for storing the collided items is chaining. 
 * Chaining is a collision resolution strategy where colliding keys are stored separately from the orginal hash table. Each hash table index holds a pointer to a chain, a separate data structure that supports the dynamic set interface.
 * A chain can be commonly implemented with a linked list or dynamic array. For small chains, dynamic sets operations can take constant time. For large chains, it can take linear time. 

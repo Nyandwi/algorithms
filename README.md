@@ -20,23 +20,24 @@ Algorithms and data structures are important for not only getting around the cod
 * Stacks and Queues: [code](data-structures/stack-queues.py), [notes](data-structures/stack-queues.md)
 * Arrays: [Static Array code](data-structures/arrays-sequence-static.py), [Dynamic Array code](data-structures/arrays-sequence-dynamic.py), [notes](data-structures/arrays-sequence.md)
 * Hash tables: [Direct Access Array code](data-structures/hash-direct-acess-array.py), [Hash Table Code](data-structures/hash-table.py), [notes](data-structures/hash-tables.md)
-* Trees, Tries, [Graphs](data-structures/graphs-intro.md)
-* Heaps
+* Graphs: [notes](data-structures/graphs-intro.md)
+* Binary Search Trees: [code](data-structures/binary-search-tree.py), [notes](data-structures/binary-search-trees.md)
+* Heaps: [notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2020/lecture-notes/MIT6_006S20_r08.pdf)
 
 
-### Revised Concepts
+### Revised Concepts: TDB in Week 17
 
+* Big O - Time and Space Complexity: [notes](concepts/big-oooh.md)
 * Recursion
 * Dynamic Programming
-* Big O - time and space complexity
-* Bit manipulation
+* Bit Manipulation
 * Memory(stack vs heap)
 
-### Revised: Getting Along Interviews
+### Revised: Getting Along Interviews: TDB in Week 24
 
 * Preparation Map
-* Behavioural Questions
 * How to Prepare
+* Behavioural Questions
 * Walking Through the Problem
 * Techniques for Optimizing and Solving Problems
 * The Traits of Good Code
@@ -85,6 +86,6 @@ Algorithms and data structures are important for not only getting around the cod
 
 ### Acknowledgements
 
-The notes about algorithms and data structures are the most important takeaways from the mentioned primary resources. I tried to write simplified notes and added extra ideas wherever necessary, but some lines/ideas may be completely similar or closely connected to those resources. This repo was done for learning purpose and to act as a reference. Same thing for implementations of those algorithms and data structures.
+The notes about algorithms and data structures are the most important takeaways from the mentioned primary resources. I tried to take simplified notes and added extra ideas wherever necessary, but some lines/ideas may be completely similar or closely connected to those resources. This repo was done for learning purpose and to act as a reference. Same thing for implementations of those algorithms and data structures.
 
 Thanks to my friend Gedeon Muhawenayo for his support on reviewing materials in this repository and suggesting good resources for Algorithms.
