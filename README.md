@@ -1,8 +1,8 @@
 # Algorithms and Data Structures for Coding Interviews
 
-I want to learn algorithms and data structures to improve my SE skills as I do not have a background in computer science. I will use this repository to track my progress, take notes, and to practice.
+I want to learn algorithms and data structures to improve my engineering skills. I will use this repository to track my progress, take notes, and to practice.
 
-Algorithms and data structures are important for not only getting around the coding interviews but also for solving algorithmic problems efficiently(time and space complexity wise). Every program that exists is a tree or a flow of operations that executes particular instructions. Every program takes or produces data. There are different types of data, each type require different manipulation and storage techniques. That's exactly why I would like to learn about data structures and algorithms.
+Algorithms and data structures are two of the most important computer science concepts. They are not only important for getting around the coding interviews but also for solving computational problems efficiently(time and space complexity wise). To day, there are massive datasets that are being generated instantly. Developing efficient algorithms that work on those massive datasets is one of the key and biggest challenges for almost every engineer. Choosing a right algorithm and data structure that suit a particular computation problem is also a critical thing that can influence the efficiency of the program.
 
 ### Revised Algorithms
 
@@ -27,23 +27,11 @@ Algorithms and data structures are important for not only getting around the cod
 
 ### Revised Concepts: TDB in Week 17
 
-* Big O - Time and Space Complexity: [notes](concepts/big-oooh.md)
+* Measuring Algorithm Efficiency with Big-O: [notes](concepts/big-oooh.md)
 * Recursion
 * Dynamic Programming
 * Bit Manipulation
 * Memory(stack vs heap)
-
-### Revised: Getting Along Interviews: TDB in Week 24
-
-* Preparation Map
-* How to Prepare
-* Behavioural Questions
-* Walking Through the Problem
-* Techniques for Optimizing and Solving Problems
-* The Traits of Good Code
-* Do's
-* Dont's
-* After Interview
 
 ### Other Related Things
 
@@ -53,6 +41,14 @@ Algorithms and data structures are important for not only getting around the cod
 * ML System Design, TBD
 * Maths for ML, TBD
 
+### Links for Coding Interviews Things
+
+* [How to Prepare](https://techinterviewhandbook.org/coding-round-overview)
+* [Behavior Questions](https://techinterviewhandbook.org/behavioral-questions/)
+* [Resume Tips](https://techinterviewhandbook.org/resume/)
+* [Algorithm Tips and the Best Practice Questions](https://techinterviewhandbook.org/algorithms/introduction/)
+* [Do's and Dont's](https://techinterviewhandbook.org/cheatsheet/)
+
 ### Primary Resources
 
 #### Algorithms
@@ -61,13 +57,13 @@ Algorithms and data structures are important for not only getting around the cod
 * Book: Algorithms Design Manual by Steven S. Skiena
 * Book: Cracking Coding Interviews
 * Book: Introduction to Algorithms by Thomas H. Cormen et al.
-* LeetCode Algorithms and DS questions
-* Algorithms by Abdul Bari, [Youtube](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+* Course: Algorithms by Abdul Bari, [Youtube](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 
 #### Interviews
 
-* [Introduction to Machine Learning Interviews by Chip Huyen](https://huyenchip.com/ml-interviews-book/)
-* [Deep Learning Interviews](https://arxiv.org/abs/2201.00650)
+* Book: [Introduction to Machine Learning Interviews by Chip Huyen](https://huyenchip.com/ml-interviews-book/)
+* Book: [Deep Learning Interviews](https://arxiv.org/abs/2201.00650)
+* Book: [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook)
 
 ### Other Resources
 
@@ -88,4 +84,4 @@ Algorithms and data structures are important for not only getting around the cod
 
 The notes about algorithms and data structures are the most important takeaways from the mentioned primary resources. I tried to take simplified notes and added extra ideas wherever necessary, but some lines/ideas may be completely similar or closely connected to those resources. This repo was done for learning purpose and to act as a reference. Same thing for implementations of those algorithms and data structures.
 
-Thanks to my friend Gedeon Muhawenayo for his support on reviewing materials in this repository and suggesting good resources for Algorithms.
+Thanks to my friend Gedeon Muhawenayo for reviewing materials in this repository and suggesting good resources for algorithms.

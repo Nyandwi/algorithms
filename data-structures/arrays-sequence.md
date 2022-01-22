@@ -10,18 +10,18 @@
 
 ### Dynamic Arrays
 
-* Dynamic array is efficient for dynamic operations such as `insert_last(x)`, `delete_last()`. These operations takes constant time(O(1)). For static arrays, they take linear time(O(n)) with respect to the length of the array.
+* Dynamic array is efficient for dynamic operations such as `insert_last(x)`, `delete_last()`. These operations takes `O(1)` constant time. For static arrays, they take `O(n)` linear time with respect to the length of the array.
 * Python list is a dynamic array.
 * The idea of dynamic array is to allocate extra or additional space when you request space for adding a new element in the array faster.
 * Inserting an element into a dynamic array is as simple as copying over the new value into the next empty slot.
 * The only issue with dynamic array is that everytime you insert an element into array, you reserve additional space which means there is a less space for other parts of the program. Computer memory is a finite resource.
-* High level languages like Python provides abstraction for memory management and allocation. Whenever you ask Python to store something, Python makes a request to the operating system behind-the-scenes for a fixed amount of memory in which to store data. So, for inserting element in dynamic array(list in python), Python requests extra space to the OS which can limit the available space for other running operations.
-* The allocated space when the array is full is O(n) extra space. 
+* High level languages like Python provides abstraction for memory management and allocation. Whenever you ask Python to store something, Python makes a request to the operating system behind-the-scenes for a fixed amount of memory in which to store data. So, for inserting element in dynamic array(list in Python), Python requests extra space to the OS which can limit the available space for other running operations.
+* The allocated space when the array is full is `O(n)` extra space. 
 * Python list doesn't always append in constant time. It sometimes takes O(n) linear time. Only allocating the extra space in the right way can guarrantee that any sequence of n insertions only takes at most O(n) time. So, on `average`, insertion takes O(1) time per insertion. That time is called `amortized constant time` because the cost of the operation is amortized(distributed) across many applications of the operation.
 * To achieve an amortized constant running time for insertion into an array, we must allocate extra space in proportion to the size of the array being stored.
 * Allocating O(n) additional space ensures that a linear number of insertions must occur before an insertion will overflow the allocation.
 * Deleting or popping the item at the back of the array takes O(1) time too. Great!!
-* To delete the last item from the array, we simply decrement a stored length of the array. This is what Python does in essence.
+* To delete the last item from the array, we simply decrement a stored length of the array. This is what Python does with `pop()` method in essence.
 * The issue with that is that if a large number of items are removed from the array or large list, the unused additional space could occupy a significant amount of wasted memory that would be useful for other operations.
 * To summarize the runtime of dynamic arrays operations:
   * All last operations(`insert_last(x)`, and `delete_last()`) takes `O(1)` constant time.
