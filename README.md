@@ -31,7 +31,7 @@ Algorithms and data structures are two of the most important computer science co
 
 * Measuring Algorithm Efficiency with Big-O: [notes](concepts/big-oooh.md)
 * Recursion: [notes](concepts/recursion.md)
-* Dynamic Programming
+* Dynamic Programming: [notes](concepts/dynamic-programming.md)
 * Bit Manipulation
 * Memory(stack vs heap)
 
@@ -41,7 +41,7 @@ Algorithms and data structures are two of the most important computer science co
 * [Python - Advanced](https://github.com/Nyandwi/python-advanced) - Ongoing
 * CS Missing Pieces, TDB
 * ML System Design, TBD
-* Maths for ML, TBD
+* Maths for ML: [EXTERNAL LINK]
 
 ### Coding Interviews Tips[EXTERNAL LINKS]
 
