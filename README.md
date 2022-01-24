@@ -13,6 +13,7 @@ Algorithms and data structures are two of the most important computer science co
 * Binary Search: [code](algorithms/binary-search.py), [notes](algorithms/binary-search.md)
 * Breadth-First Search: [code](algorithms/breadth-first-search.py), [notes](algorithms/breadth-first-search.md)
 * Depth-First Search: [code](algorithms/depth-first-search.py), [notes](algorithms/depth-first-search.md)
+* Algorithms: Summary
 
 ### Revised Data Structures
 
@@ -23,12 +24,13 @@ Algorithms and data structures are two of the most important computer science co
 * Graphs: [notes](data-structures/graphs-intro.md)
 * Binary Search Trees: [code](data-structures/binary-search-tree.py), [notes](data-structures/binary-search-trees.md)
 * Heaps: [notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2020/lecture-notes/MIT6_006S20_r08.pdf)
+* Data Structures: Summary
 
 
-### Revised Concepts: TDB in Week 17
+### Revised Concepts:
 
 * Measuring Algorithm Efficiency with Big-O: [notes](concepts/big-oooh.md)
-* Recursion
+* Recursion: [notes](concepts/recursion.md)
 * Dynamic Programming
 * Bit Manipulation
 * Memory(stack vs heap)
@@ -41,13 +43,13 @@ Algorithms and data structures are two of the most important computer science co
 * ML System Design, TBD
 * Maths for ML, TBD
 
-### Links for Coding Interviews Things
+### Coding Interviews Tips[EXTERNAL LINKS]
 
 * [How to Prepare](https://techinterviewhandbook.org/coding-round-overview)
 * [Behavior Questions](https://techinterviewhandbook.org/behavioral-questions/)
 * [Resume Tips](https://techinterviewhandbook.org/resume/)
 * [Algorithm Tips and the Best Practice Questions](https://techinterviewhandbook.org/algorithms/introduction/)
-* [Do's and Dont's](https://techinterviewhandbook.org/cheatsheet/)
+* [Do's](https://huyenchip.com/ml-interviews-book/contents/4.4.1-do’s.html) and [Dont's](https://huyenchip.com/ml-interviews-book/contents/4.4.1-do’s.html0) by Chip Huyen
 
 ### Primary Resources
 
@@ -57,6 +59,7 @@ Algorithms and data structures are two of the most important computer science co
 * Book: Algorithms Design Manual by Steven S. Skiena
 * Book: Cracking Coding Interviews
 * Book: Introduction to Algorithms by Thomas H. Cormen et al.
+* Book: Introduction to Computation and Programming Using Python, John V. Guttag
 * Course: Algorithms by Abdul Bari, [Youtube](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 
 #### Interviews
