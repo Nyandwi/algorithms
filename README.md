@@ -31,7 +31,7 @@ Algorithms and data structures are two of the most important computer science co
 * Measuring Algorithm Efficiency with Big-O: [notes](concepts/big-oooh.md)
 * Recursion: [notes](concepts/recursion.md)
 * Dynamic Programming: [notes](concepts/dynamic-programming.md)
-* [Bit Manipulation](concepts/bit-manipulation.md)
+* Bit Manipulation: [notes](concepts/bit-manipulation.md)
 
 ### Other Related Things
 
