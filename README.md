@@ -2,7 +2,7 @@
 
 I want to learn algorithms and data structures to improve my engineering skills. I will use this repository to track my progress, take notes, and to practice.
 
-Algorithms and data structures are two of the most important computer science concepts. They are not only important for getting around the coding interviews but also for solving computational problems efficiently(time and space complexity wise). To day, there are massive datasets that are being generated instantly. Developing efficient algorithms that work on those massive datasets is one of the key and biggest challenges for almost every engineer. Choosing a right algorithm and data structure that suit a particular computation problem is also a critical thing that can influence the efficiency of the program.
+Algorithms and data structures are two of the most important computer science concepts. They are not only important for getting around the coding interviews but also for solving computational problems efficiently. To day, there are massive datasets that are being generated instantly. Developing efficient algorithms that work on those massive datasets is one of the key and biggest challenges for almost every engineer. Choosing a right algorithm and data structure that suit a particular computation problem is also a critical thing that can influence the efficiency of the program.
 
 ### Revised Algorithms
 
@@ -26,14 +26,12 @@ Algorithms and data structures are two of the most important computer science co
 * Heaps: [notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2020/lecture-notes/MIT6_006S20_r08.pdf)
 * Data Structures: Summary
 
-
 ### Revised Concepts:
 
 * Measuring Algorithm Efficiency with Big-O: [notes](concepts/big-oooh.md)
 * Recursion: [notes](concepts/recursion.md)
 * Dynamic Programming: [notes](concepts/dynamic-programming.md)
-* Bit Manipulation
-* Memory(stack vs heap)
+* [Bit Manipulation](concepts/bit-manipulation.md)
 
 ### Other Related Things
 
@@ -41,7 +39,7 @@ Algorithms and data structures are two of the most important computer science co
 * [Python - Advanced](https://github.com/Nyandwi/python-advanced) - Ongoing
 * CS Missing Pieces, TDB
 * ML System Design, TBD
-* Maths for ML: [EXTERNAL LINK]
+* Maths for ML: [EXTERNAL LINK](https://mml-book.github.io)
 
 ### Coding Interviews Tips[EXTERNAL LINKS]
 
@@ -74,7 +72,7 @@ Algorithms and data structures are two of the most important computer science co
 * Course: [Princeton Algorithms and Data Structures](https://algs4.cs.princeton.edu/home/) by Robert Sedgewick and Kevin Wayne. There is also a Coursera course on this.
 * Course: Data Structures and Algorithms in Python on Free Code Camp, [Youtube](https://www.youtube.com/watch?v=pkYVOmU3MgA), [Website](https://jovian.ai/learn/data-structures-and-algorithms-in-python)
 
-### Reference GitHub Repositories
+### Other Similar Algorithms GitHub Repositories
 
 * [Awesome Algorithms](https://github.com/tayllan/awesome-algorithms)
 * [Data Structures and Algorithms](https://github.com/Gedeon-m-gedus/data_structures_and_algorithms)
