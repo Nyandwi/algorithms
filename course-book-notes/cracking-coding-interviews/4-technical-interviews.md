@@ -37,7 +37,7 @@ Concepts:
 
 * It's rare that you will be asked to implement those things. But know their basics and try to implement them on your own. Also think about time and space complexity.
 * Also know the power 2. Below is the table..It's useful for questions involving scalability or any sort of memory limitation.
-![imahe](../images/power2.png)
+![imahe](.../../../../images/walk.png)
 
 ### Walking through the code
 
@@ -49,7 +49,7 @@ Concepts:
 * Test the code. Walkthrough the code like you would for a detailed code review. 
 * Keep talking. Your interviewer want to know how you are interviewing. 
 
-![image](../images/walk.png)
+![image](.../../../../images/walk.png)
 
 ##### Listen carefully:
 

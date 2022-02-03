@@ -171,10 +171,145 @@ print(f"a >> 4: {a >> 4}")
 ```
 a >> 4: 0
 ```
+### Examples of Solving Ordinary Arthimetic Problems with Bit Manipulation
+
+#### 1. Swap Two Numbers Without Using Any additional Variable
+
+```python
+# Swap two numbers without using any additional variable or any arthmetic operator
+
+def swap_numbers(a, b):
+    """
+    Given two integers a and b, swap them without using any additional variable
+    Solution: Use bitwise operator XOR(^)
+    """
+    
+    a = a ^ b 
+    b = a ^ b # b = a ^ b = (a^b) ^ b = a^(b^b) = a^0 = a, now b = a
+    a = a ^ b # a = a ^ b = (a^b) ^ a = b^(a^a) = b ^0 = b, now a = b, swapped!!
+    
+    return a, b
+```
+```python
+a = 12
+b = 32
+
+a_new, b_new = swap_numbers(a,b)
+print(f"Swapped A:{a_new}, Swapped B: {b_new}")
+```
+```
+Swapped A:32, Swapped B: 12
+```
+
+
+```python
+# Swapping numbers using arthmetic operators
+
+def swap_numbers_2(a, b):
+    """
+    Given two integers a and b, swap them without using any additional variable
+    Solution: Use bitwise operator XOR(^)
+    """
+    
+    a = b - a
+    b = b - a # b = b - (b - a) = b - b + a = a, b = a, swapped!
+    a = b + a # a = b + a = 
+    
+    return a, b
+```
+```python
+a = 12
+b = 32
+
+swap_numbers_2(a, b)
+```
+```
+(32, 12)
+```
+
+#### 2. Add Two Numbers Without Using Arthmetic Operations
+
+```python
+# Add two numbers without using any arthmetic operator
+
+#1: Using iterative approach
+
+def add_without_arthimetic_iter(a, b):
+    """
+    Given 2 numbers, return their sum without using arthmetic operator.
+
+    Solution: 
+        Step 1: Add two numbers without carrying the carry. This is peformed by XOR in binary.
+        Step 2: Add them together but only carry (ith bit in carry bits is 1 if ith-1 of a and b are 1 (1 + 1 = 10, sum = 0, carry = 1)
+        Do those 2 steps iteratively.
+    """
+
+    
+    
+    if b == 0:
+        return a
+    
+    while b != 0:
+        sum_no_carry = a ^ b
+        carry = (a & b) << 1
+        
+        a = sum_no_carry
+        b = carry
+    
+    return a
+```
+```python
+a = 12
+b = 13
+
+add_without_arthimetic_iter(a, b)
+```
+```
+25
+```
+
+```python
+#2: Add two numbers iteratively
+
+def add_without_arthimetic_recursive(a, b):
+    """
+      Given 2 numbers, return their sum without using arthmetic operator.
+
+    Solution: 
+        Step 1: Add two numbers without carrying the carry. This is peformed by XOR in binary.
+        Step 2: Add them together but only carry (ith bit in carry bits is 1 if ith-1 of a and b are 1 (1 + 1 = 10, sum = 0, carry = 1)
+        Do those 2 steps recursively.
+    """
+    
+    if b == 0:
+        return a
+    
+    sum_no_carry = a ^ b
+    carry = (a & b) << 1
+    
+    
+    return add_without_arthimetic_recursive(sum_no_carry, carry)
+```
+```python
+a = 12
+b = 13
+
+add_without_arthimetic_recursive(a, b)
+```
+```
+25
+```
+
 
 ### Further Learning
 
 This is fairly short given the depth of bit manipulation. For more about it, check:
 
+* [Bit Hacks, MIT OpenCourseWare, MIT 6.172](https://www.youtube.com/watch?v=ZusiKXcz_ac)
 * [Bitwise Operators in Python by Real Python](https://realpython.com/python-bitwise-operators/#bitwise-logical-operators)
 * [Bit Manipulation: Python Official](https://wiki.python.org/moin/BitManipulation)
+
+
+### To do:
+
+* Revisit bitwise operators and the foundations of binary system to understand this thing more.

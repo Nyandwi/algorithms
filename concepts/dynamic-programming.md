@@ -8,7 +8,6 @@
     - [3. Dynamic Programming With Bottom Up Approach](#3-dynamic-programming-with-bottom-up-approach)
     - [4. Summary: Dynamic Programming Vs Recursion Vs Divide and Conquer](#4-summary-dynamic-programming-vs-recursion-vs-divide-and-conquer)
     - [5. References and Further Learning](#5-references-and-further-learning)
-      - [BACK TO TOP](#back-to-top)
 ************
 
 <a name='1'></a>
@@ -37,7 +36,7 @@
 * A fibonacci series is a series in which a current number n is equivalent to the addition of two previous number in the sequence. Below is the expression of a fibonacci series.
 
 >`F(n) = F(n-1) + F(n-2)`, 
-`F(0) = 1, F(1) = 1, F(2) = 2, F(3) = 3, F(4) = 5 ...`
+`F(0) = 0, F(1) = 1, F(2) = 1, F(3) = 2, F(4) = 3 ...`
 
 * Before we seek to optimize the fibonacci series, let's implement it with recursion.
 
@@ -49,7 +48,7 @@ def fibo(n):
     """
 
     if n == 0 or n == 1:
-        return 1
+        return n
     else:
         return fibo(n - 1) + fibo(n - 2)
 
@@ -59,7 +58,7 @@ def fibo(n):
 
 * Let's take an example for `fibo(5)`. Below is the recursive tree of `fibo(5)`. As you can notice, it has `3 fibo(2)` and `2 fibo(3)`.
 
-![fibo](../images/fibo.jpg)
+![fibo](../images/fibo.JPG)
 
 * If we modify the recursive tree like below, we could potentially save work needed to find the number of the series since we are not recomputing the functions that already have values.
 
@@ -80,7 +79,7 @@ def fibo_2(n, mimo = {}):
     """
     
     if n == 1 or n == 0:
-        return 1
+        return n
     
     if n > 1:
         if n in mimo:
@@ -93,17 +92,17 @@ def fibo_2(n, mimo = {}):
 
 ```
 fibo_2(3)
-3
+2
 fibo_2(120)
-8670007398507948658051921
+5358359254990966640871840
 ```
 * `fibo_2(n)` in few words: If `n` is either 1 or 0, return 1 since the fibonacci of 1 or 0 is 1. If `n` is greater than 1 and is in `mimo`(initialized as `empty dictionary` to store `overlapping recursive calls`), return the value of `n` in `mimo` (we are saving `n` as keys in `mimo` dictionary and their results as values). If `n` is not in `mimo`, it means we haven't computed it yet, and so compute it and save the results in `memo`.
 
-* Now we have a very efficient fibonacci series for computing even large series for resonably short time. Computing `fibo_2(120)` takes fraction of milliseconds when it was almost impossible to find it with normal recursive function. Indeed, normal recursive function would take `250,000 years` to find it if we assume each recursive call takes 1 nanosecond. That really demonstrates the beauty of dynamic programming.
+* Now we have a very efficient fibonacci series for computing even large series for resonably short time. Computing `fibo_2(120)` takes fraction of milliseconds when it was almost impossible to find it with normal recursive function. Indeed, normal recursive function would take `thousands of years` to find it if we assume each recursive call takes 1 nanosecond. That really demonstrates the beauty of dynamic programming.
   
 * The runtime of `fibo_2(n)` is `O(n)` since we are caching the results and there are only n values to pass to `fibo_2(n).` Looking the value in a dictionary takes `O(1)` constant time, so we don't count that. This also much better than O(2<sup>n</sup>) of normal recursive function.
 
-<a name='3></a>
+<a name='3'></a>
 ### 3. Dynamic Programming With Bottom Up Approach
 
 * The approach we used to solve the above fibonacci series with dynamic programming is typically called `top-down approach` where we start solving the problem from the top, divide it into subproblems, save the results of the overlapping subproblems and reuse the results later.
@@ -113,7 +112,7 @@ fibo_2(120)
 ```python
 def fib_bottom(n):
     if n == 1 or n == 0:
-        return 1
+        return n
     
     a = 0
     b = 1
@@ -127,10 +126,10 @@ def fib_bottom(n):
 ```
 ```
 fib_bottom(120)
-8670007398507948658051921
+5358359254990966640871840
 ```
 
-* **What we are doing above:** As usual, if n is 0 or 1, its fibonacci number is 1. We start with assigning 0 to variable `a` and 1 to `b` as the simplest cases. Then at every step all the way to n, we find `c` as sum of `a` and `b`(c is like the fibonacci of i but we are not using i), `update a with b` and `update b with c`. 
+* **What we are doing above:** As usual, if n is 0 or 1, its fibonacci number is n. We start with assigning 0 to variable `a` and 1 to `b` as the simplest cases. Then at every step all the way to n, we find `c` as sum of `a` and `b`(c is like the fibonacci of i but we are not using i), `update a with b` and `update b with c`. 
 
 * The runtime of the algorithm is `O(n)` for looping through the list `range(n)`. Finding `fib_bottom(120)` also takes a fraction of milliseconds.
 
@@ -155,4 +154,4 @@ fib_bottom(120)
 * Introduction to Algorithms - MIT Press
 
 
-#### [BACK TO TOP](#0)
+[BACK TO TOP](#0)

@@ -112,7 +112,7 @@ def fibo(n):
         return n
     
     else:
-        return fibo(n-1) + fibo(n - 2)   
+        return fibo(n - 1) + fibo(n - 2)   
 ```
 
 #### 2.4 Palindrome Strings
@@ -157,10 +157,10 @@ def fibo(n):
         return n
     
     else:
-        return fibo(n-1) + fibo(n - 2)   
+        return fibo(n - 1) + fibo(n - 2)   
 ```
 
-* The fibonnaci of small values of n is not so hard to compute but for large n, it's extremely time and space exhaustive. Take an example: fibo(120) is`8,670,007,398,507,948,658,051,921`. It can take `250,000 years` to compute that per time complexity analysis. Try running it!!
+* The fibonnaci of small values of n is not so hard to compute but for large n, it's extremely time and space exhaustive. Take an example: fibo(120) is`5358359254990966640871840`. It can take `thousands of years years` to compute that per time complexity analysis. Try running it!!
 
 * For some problems, recursion might be all you need. But for other problems, we may need something much more. We need a more optimal way.
 
@@ -168,7 +168,7 @@ def fibo(n):
 
 * Taking an example: the `fibo(5)` will have `3 fibo(2)` and 2 `fibo(3)` repeated calls. How can we cache the results of those repeated calls to use them later so as to save time and space?
 
-![fibo](../images/fibo.jpg)
+![fibo](../images/fibo.JPG)
 ***Image: The recursive tree of `fibo(5)`.  Image by author.***
 
 * More about dynamic programming later!!

@@ -119,7 +119,7 @@ print(factorial(3)) #3x2x1
 ******************
 
 * The above example shows that all constants time are neglected. However, it's important to note that constants affect the runtime. They do it at a small scale, but overall, in theorical analysis of algorithmic efficiency, we neglect all constants.
-* Also, when multiple orders of growth are present in the program, we take the dominant order of growth. It's same as what we said above. So for example, $O(2 + 3n + n^2) = O(n^2)$. The dominant term is $n^2$. The rest are neglected. Take another examples: $O(n + logn) = O(n)$, $O(nlogn + n) = O(nlogn)$.
+* Also, when multiple orders of growth are present in the program, we take the dominant order of growth. It's same as what we said above. So for example, `O(2 + 3n + n^2) = O(n^2)`. The dominant term is `n^2`. The rest are neglected. Take another examples: `O(n + logn) = O(n)`, `O(nlogn + n) = O(nlogn)`.
   
 * For small input data, constants can seems like they make difference and they actually does, for large size of the input data n and high order of growth, they don't make difference. This is why we omit them! 
 
@@ -130,15 +130,15 @@ print(factorial(3)) #3x2x1
 
 * Big O defines the order of growth of a particular program. O actually mean `Order` or `On the Order of n`, where `n` is the size of the input data to a program.
 * There are at least 6 orders from the lowest to the highest:
-  * Constant time: $O(1)$
+  * Constant time: `O(1)`
   * Linear Time: O(n)
-  * Logarithmic time: $O(log n)$
-  * Log-linear time: $O(nlogn)$
-  * Quadratic time: $O(n^2)$
-  * Exponential time: $O(c^n)$
+  * Logarithmic time: `O(log n)`
+  * Log-linear time: `O(nlogn)`
+  * Quadratic time: `O(n^2)`
+  * Exponential time: `O(c^n)`
 
 * `O(1)` and `O(log n)` are fast, `O(n)` and `O(nlogn)` are not bad, and the latter two are very slow. Unless it's the only possible option, you should avoid having the algorithm that has runtime of `O(n^c)` or `O(c^n)`.
-* $O(1)$ >> $O(log n)$ >> $O(n)$ >>$O(nlogn)$ >>$O(n^c)$ >> $O(c^n)$.
+* `O(1)` >> `O(log n)` >> `O(n)` >>`O(nlogn)` >>`O(n^c)` >> `O(c^n)`.
 * Below is the illustrations of 6 different orders of growth:
 
 ![image](../images/bigo.png)
@@ -238,7 +238,7 @@ def binary_search(arr, x):
 ```
 ******************
 
-* In binary search, for every step, we divide the array by 2 until we have only one element. If we have a array of N values, for every step, we will have N/2 values. The number of steps required to divide the array till the end is log<sub>2</sub>N which is equal to $2^k = N$ where $k$ is the number of steps.
+* In binary search, for every step, we divide the array by 2 until we have only one element. If we have a array of N values, for every step, we will have N/2 values. The number of steps required to divide the array till the end is log<sub>2</sub>N which is equal to 2<sup>k</sup> = N where `k` is the number of steps.
 * So, our binary search will take O(logn) time where the base of the log is 2.
   
 * In essence, nearly all computational problems that requires some sorts of halving the inputs takes O(logn) logarithmic time. Those include searching element in balanced binary search tree. When finding a element in binary search tree, for every step at a given node, we either go left or right of the node. When we do that, we are essentially dividing the height of the tree until we get to the last node of the tree(`leaf node`). The runtime for searching element in a balanced tree is proportional to the `height` of the tree and since we halve the height when traversing a node after node, the runtime is logarithmic. It is `O(logn)`.
@@ -250,7 +250,7 @@ def binary_search(arr, x):
 
 ![word search](../images/words-search.jpg)
 
-#### 4. O(nlogn), Log-linear time
+#### 4. O(n log n), Log-linear time
 
 * Previously, we saw that `O(log n)` logarithmic time increase half-step the input as the size of the input data doubles. We also saw that almost all problems in which we have to halve the input for each step like binary search and binary search tree have `O(log n)` logarithmic time.
   
@@ -292,11 +292,11 @@ def merge_sort(left, right):
 
 * That's it for log-linear time. To summarize, log-linear time means we are doing the `O(log n)` logarithimic work in `n` times. When the size of the input n grows, it takes a bit more to complete the work.
 
-#### 5. $O(n^2)$ Quadratic Time
+#### 5. O(n<sup>2</sup>) Quadratic Time
 
 * All algorithmic complexities we saw so far are not quite bad. If you can do something in constant time, that's really great. If you can do it in logarithmic time, that's still great. In linear time, that's good. In log-linear, that's not bad.
   
-* The things starts to be cautious when you have to do the work in $O(n^2)$ quadratic time. Remember Big-O is a measure of how code slows when data grows. So, if the size of your input data is squarred, the runtime is squarred too. For small values of `n`, that can be tolerable. But when you expect the n to be large, quadratic time complexity can extremely slows down your algorithm.
+* The things starts to be cautious when you have to do the work in `O(n^2)` quadratic time. Remember Big-O is a measure of how code slows when data grows. So, if the size of your input data is squarred, the runtime is squarred too. For small values of `n`, that can be tolerable. But when you expect the n to be large, quadratic time complexity can extremely slows down your algorithm.
   
 * Example of cases where you may have quadratic time complexity are using two nested loops and selection sort.
 
@@ -323,25 +323,25 @@ def list_intersect(l1, l2):
 
 * In the function above, each loop will take `O(n)` time. The resulting runtime will be the multiplication of both runtimes since at every step of iteration, we are doing work in list `l1` and `l2` at the same time. 
 
-* Quadratic time is also called as polynomial time. Polynomial time is a general case for all algorithms that takes $O(n^c)$ time where $c$ is a constant. That means we can have $O(n^3)$ cubic time, $O(n^4)$ quartic time, $O(n^5))$ penta-time(not sure if it's the right way to say it but you get the idea). 
+* Quadratic time is also called as polynomial time. Polynomial time is a general case for all algorithms that takes `O(n^c)` time where `c` is a constant. That means we can have `O(n^3)` cubic time, `O(n^4)` quartic time, `O(n^5))` penta-time(not sure if it's the right way to say it but you get the idea). 
   
 * Also recursive functions calls takes polynomial complexity.
 
 * If you can find other ways to not do a task in polynomial time, that's a good thing because as you go to the large order polynomials, your algorithm can be very slow. 
 
-#### 6. $O(2^n)$ Exponential Time
+#### 6. O(2<sup>n</sup>) Exponential Time
 
 * An algorithm that run in exponential time is much slower than algorithm that run in polynomial time. When you have to make many exponential calls for large input data, algorithm can be very and very and very slow. 
   
 * Making more than one recursive function call on the same input data takes exponential time. Remember that one recursive function call takes O(n) linear time.
 
-* In the expression $O(2^n)$, $n$ is the number of times that each recursive function call run. 
+* In the expression `O(2^n)`, `n` is the number of times that each recursive function call run. 
   
-* Problems that involves putting things in the order of combination takes exponential time. Take an example: Say you have a list of integers n, the time it would take to reorder the list in every possible combination of its elements would be exponential time. If your list have n values, it would take $O(2^n)$ time.
+* Problems that involves putting things in the order of combination takes exponential time. Take an example: Say you have a list of integers n, the time it would take to reorder the list in every possible combination of its elements would be exponential time. If your list have n values, it would take `O(2^n)` time.
 
-* Let's take an example of finding the fibonacci series. A fibonacci series goes like this: $0, 1, 1, 2, 3, 5, 8, 13, 21...$: Each current number is the sum of previous two numbers.
+* Let's take an example of finding the fibonacci series. A fibonacci series goes like this: `0, 1, 1, 2, 3, 5, 8, 13, 21...`: Each current number is the sum of previous two numbers.
 
-* The exponential time $O(2^n)$ is not to be confused with $O(n!)$ factorial time. All problems that involves permutations(the number of possible order that something can be arranged) takes factorial time. A factorial of n is equal to $n*n-1*n-2...*1$. Example: $3! = 3 * 2 * 1 = 6$.
+* The exponential time `O(2^n)` is not to be confused with `O(n!)` factorial time. All problems that involves permutations(the number of possible order that something can be arranged) takes factorial time. A factorial of n is equal to `n*n-1*n-2...*1`. Example: `3! = 3 * 2 * 1 = 6`.
 * 
 ******************
 
@@ -361,7 +361,7 @@ def fibonac(n):
 ```
 ******************
 
-* The worst case runtime for the above fibonacci series function is $O(2^n)$
+* The worst case runtime for the above fibonacci series function is `O(2^n)`
 
 * For large values of n, factorial can be hard to compute. Find the factorial of 20 for example!!!
 
@@ -413,23 +413,23 @@ Dictionaries:
   * **O(log n) Logarithmic time:** The time complexity of the algorithm increases by one step (of input) as the size of the input data `n` doubles. Most computational problems that can be solved by dividing the input data into two parts at every step(divide and conquer) takes logarithmic time.
   * **O(n) Linear time:** The time complexity of the algorithm is directly proportional to the size of the input data. 
   * **O(n log n) Log-linear time:** Log linear time is multiplication of logarithmic time `O(log n)` and linear time `O(n)`. It's like doing a `O(log n)` task `n` times. Most sorting algorithms such as merge sort and quick sort and heap sort takes `O(n log n)` time.
-  * **$O(n^2)$ Quadratic time:** The runtime increase by square when the size of the input data increase by square. Quadratic time is a kind of polynomial time. There can be cubic time $O(n^3)$, $O(n^4)$....Nested loops like to have this type of runtime.
-  * **$O(2^n)$ Exponential time:** Exponential time is the best description of most recursive function calls.
-  * **$O(n!)$ Factorial time:** Computational problems that involves some form of permutations usually have factorial time. This is the highest order of growth the algorithm can have.
+  * **`O(n^2)` Quadratic time:** The runtime increase by square when the size of the input data increase by square. Quadratic time is a kind of polynomial time. There can be cubic time `O(n^3)`, `O(n^4)`....Nested loops like to have this type of runtime.
+  * **`O(2^n)` Exponential time:** Exponential time is the best description of most recursive function calls.
+  * **`O(n!)` Factorial time:** Computational problems that involves some form of permutations usually have factorial time. This is the highest order of growth the algorithm can have.
 
 ![bigo-graphs](../images/bigographs.png)
 *Image by Ned*
 
-* O(1), (log n), O(n log n), and O(n) are generally fast, but $O(n^2)$, **$O(2^n)$, **$O(n!)$ can be very slow and extremely slow for large dataset.
+* O(1), (log n), O(n log n), and O(n) are generally fast, but `O(n^2)`, **`O(2^n)`, **`O(n!)` can be very slow and extremely slow for large dataset.
   
 * Here are few things to keep in mind when evaluating the efficiency of the algorithm with Big-O:
   * If you are doing typical operations mostly on scalar values, it's O(1).
   * If you have to loop through the values of the most data structures like list(or simply input data), it's O(n).
-  * When doing two things iteratively(you do one thing, before you finish it you do other thing...), you must multiply the runtime of both things. Example of this is two nested loops iterating through the data, they takes $O(n) * O(n) = O(n^2)$.
+  * When doing two things iteratively(you do one thing, before you finish it you do other thing...), you must multiply the runtime of both things. Example of this is two nested loops iterating through the data, they takes `O(n) * O(n) = O(n^2)`.
   * When doing two things, where you do one thing completely and you tackle another thing, the resulting runtime is the addition of both things. Example: Two independent for loops.
   * If you have to divide the input data into two part at every step all the way to the end(divide and conquer), the runtime is O(log n). If you have to do that for every element of data structure, that's O(n log n) time.
   * Most sorting algorithms takes O(n log n) time.
-  * Most recursive function calls takes $O(2^n)$ exponential time.
+  * Most recursive function calls takes `O(2^n)` exponential time.
   * If you have to find the permutations of values in the input data, the runtime is factorial O(n!) which is the highest order.
 
   
