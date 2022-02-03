@@ -1,4 +1,4 @@
-# Algorithms and Data Structures for Coding Interviews
+# Algorithms and Data Structures
 
 I want to learn algorithms and data structures to improve my engineering and program design thinking skills. I will use this repository to track my progress, take notes, and to practice.
 
