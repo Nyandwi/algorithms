@@ -82,9 +82,9 @@ Algorithms and data structures are two of the most important computer science co
 ***************************
 ### Acknowledgements
 
-The notes about algorithms and data structures are the most important takeaways from the mentioned primary resources. I tried to take simplified notes and added extra ideas wherever necessary, but some lines/ideas may be completely similar or closely connected to those resources. This repo was done for learning purpose and to act as a reference. Same thing for implementations of those algorithms and data structures.
+The notes about algorithms and data structures in this repo were compiled for learning purpose. They are are the most important takeaways from the mentioned resources. I tried to take simplified notes and added extra ideas wherever necessary, but some lines/ideas may be completely similar or closely connected to those resources. This repo was done for learning purpose and to act as a reference.
 
-For any error or suggestion about the notes, fill an issue or let me know [here](https://twitter.com/Jeande_d) or [here](https://www.linkedin.com/in/nyandwi/).
+For any error or any suggestion, fill an issue or let me know [here](https://twitter.com/Jeande_d) or [here](https://www.linkedin.com/in/nyandwi/).
 
 
 Thanks to my friend Gedeon Muhawenayo for supporting me and suggesting good algorithm's resources!
