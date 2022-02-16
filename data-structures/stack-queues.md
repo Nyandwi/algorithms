@@ -54,7 +54,7 @@ def pop(S):
 ### Queues
 
 * Queues supports data retrieval in `FIFO` manner: first in, first out.
-* Queues are used in waiting services or telecommunication phone calls service networks. You want the customer who came first to be served first. You want the subscriber who made the call first to be switched to people they called first(call services are now automatic, but back in days when someone has to manualy connect two people calling each other, delay was inevitable due to calls queued calls).
+* Queues are used in waiting services or telecommunication phone calls service networks. You want the customer who came first to be served first. You want the subscriber who made the call first to be switched to people they called first(call services are now automatic, but back in days when someone has to manualy connect two people calling each other, delay was inevitable due to queued calls).
 * The customer who comes last are placed on the end of the line and they are shifted to ward the front as new customer comes in and older customer get served. First in, first out.
 * Queue has `head` and `tail`.
 * Like stacks, queues has two main operations that are `enqueue()` and `dequeue()`.
@@ -86,7 +86,7 @@ def dequeue(Q):
 ```
 
 
-### Implementing Stack ans Queues
+### Implementing Stack and Queues
 
 * Stack and queues can be implemented with lists and arrays. 
 * Stack can simply be implemented in Python list, where push operation is append() method, and pop stack operation is pop().
