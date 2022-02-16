@@ -21,7 +21,7 @@
 
 * Dynamic programming is used to solve optimization problems - Optimization problems are problems whose solutions maximizes or minimizes some function. Example of optimization: gradient descent that minimize the loss function.
 
-* Dynamic programming is typically employed when optimizing the recursive algorithm. If a recursive algorithm computes some subproblems more than once, we can save the results of those subproblems(in a table) and use them later thereby saving time and space and minimizing the work to be done. 
+* Dynamic programming is typically employed when optimizing the recursive algorithm. If a recursive algorithm computes some subproblems more than once, we can save the results of those subproblems(often in a dictionary) and use them later thereby saving time and space and minimizing the work to be done. 
 
 * The process of storing the computed results of subproblems and using them later wherever possible is called `memoization`.
 
@@ -96,9 +96,9 @@ fibo_2(3)
 fibo_2(120)
 5358359254990966640871840
 ```
-* `fibo_2(n)` in few words: If `n` is either 1 or 0, return 1 since the fibonacci of 1 or 0 is 1. If `n` is greater than 1 and is in `mimo`(initialized as `empty dictionary` to store `overlapping recursive calls`), return the value of `n` in `mimo` (we are saving `n` as keys in `mimo` dictionary and their results as values). If `n` is not in `mimo`, it means we haven't computed it yet, and so compute it and save the results in `memo`.
+* `fibo_2(n)` in few words: If `n` is either 1 or 0, return `n`. If `n` is greater than 1 and is in `mimo`(initialized as `empty dictionary` to store `overlapping recursive calls`), return the value of `n` in `mimo` (we are saving `n` as keys in `mimo` dictionary and their results as values). If `n` is not in `mimo`, it means we haven't computed it yet, and so compute it and save the results in `memo`.
 
-* Now we have a very efficient fibonacci series for computing even large series for resonably short time. Computing `fibo_2(120)` takes fraction of milliseconds when it was almost impossible to find it with normal recursive function. Indeed, normal recursive function would take `thousands of years` to find it if we assume each recursive call takes 1 nanosecond. That really demonstrates the beauty of dynamic programming.
+* Now we have a very efficient fibonacci series for computing even large series in a resonably short time. Computing `fibo_2(120)` takes fraction of milliseconds when it was almost impossible to find it with normal recursive function. Indeed, normal recursive function would take `thousands of years` to find it if we assume each recursive call takes 1 nanosecond. That really demonstrates the beauty of dynamic programming.
   
 * The runtime of `fibo_2(n)` is `O(n)` since we are caching the results and there are only n values to pass to `fibo_2(n).` Looking the value in a dictionary takes `O(1)` constant time, so we don't count that. This also much better than O(2<sup>n</sup>) of normal recursive function.
 

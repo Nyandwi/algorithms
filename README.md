@@ -39,14 +39,6 @@ Algorithms and data structures are two of the most important computer science co
 * [Python - Advanced](https://github.com/Nyandwi/python-advanced) - Ongoing
 * Maths for ML: [EXTERNAL LINK](https://mml-book.github.io)
 
-### Coding Interviews Prep Tips[EXTERNAL LINKS]
-
-* [How to Prepare](https://techinterviewhandbook.org/coding-round-overview)
-* Behavior Questions: [LINK 1](https://techinterviewhandbook.org/behavioral-questions/), [LINK 2](https://www.crackingthecodinginterview.com/uploads/6/5/2/8/6528028/cracking_the_soft_skills_-_v6.pdf)
-* Resume Tips: [LINK 1](https://www.careercup.com/resume), [LINK 2](https://techinterviewhandbook.org/resume/)
-* [Coding Questions](https://www.crackingthecodinginterview.com/uploads/6/5/2/8/6528028/cracking_the_coding_skills_-_v6.pdf)
-* [Do's](https://huyenchip.com/ml-interviews-book/contents/4.4.1-do’s.html) and [Dont's](https://huyenchip.com/ml-interviews-book/contents/4.4.2-don’ts.html)
-
 ***************************
 
 ### Primary Resources
