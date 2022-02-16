@@ -2,7 +2,7 @@
 
 I want to learn algorithms and data structures to improve my engineering and program design thinking skills. I will use this repository to track my progress, take notes, and to practice.
 
-Algorithms and data structures are two of the most important computer science concepts. They are not only important for getting around the coding interviews but also for solving computational problems efficiently. To day, there are massive datasets that are being generated instantly. Developing efficient algorithms that work on those massive datasets is one of the important and biggest problems. Choosing a right algorithm and data structure that suit a particular computation problem is also a critical thing that can influence the efficiency of the program.
+Algorithms and data structures are two of the most important pieces of computer science. They are not only important for getting around the coding interviews but also for solving computational problems efficiently. To day, there are massive datasets that are being generated instantly. Developing efficient algorithms that work on those massive datasets is one of the important and biggest problems. Choosing a right algorithm and data structure that suit a particular computation problem is also a critical thing that can influence the efficiency of the program.
 
 ***************************
 
