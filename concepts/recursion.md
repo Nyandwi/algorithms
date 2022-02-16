@@ -27,9 +27,9 @@
 
 * Recursion is essentially based on `divide and conquer` technique where we divide the problem into different subproblems, solve each subproblem recursively, and combine the results to form the final solution.
 
-* While solving a problem recursively might make use of fewer codes, it time and space inefficient. The space of recursive problems is often O(n), where n is the depth or total number of recursive calls. Also equivalent to O(2<sup>k</sup>), where k is the number of the nodes that have children in a recursive tree. Plotting the tree is the best way to find the time complexity of the recursive function.
+* While solving a problem recursively might make use of fewer codes, it time and space inefficient. The space of recursive problems is often O(n), where n is the depth or total number of recursive calls. The time complexity of recursive calls is O(2<sup>k</sup>), where k is the number of the nodes that have children in a recursive tree(or simply number of recursive calls). Plotting the tree is the best way to find the time complexity of the recursive function.
   
-* Most recursive problems can be solved iteratively with `for` and `while` loops. While recursion might make use of few codes than iterative approach, the iterative approach might take less computation time and space. There a fair trade-off between recursion and iterative approach.
+* Most recursive problems can be solved iteratively with `for` and `while` loops. While recursion might make use of few codes than iterative approach, the iterative approach might take less computation time and space. There a fair trade-offs between recursion and iterative approach.
   
 * A recursive function must have at least one `base case` that defines a solution to the special and simplest case of the problem. If there is no base case, the function can run infinitely and that's not good(computer's memory is a finite resource).
 
@@ -41,7 +41,7 @@
 #### 2.1 Multiplication of two numbers
 
 * Given two numbers, return their multiplication without using arthimetic operator of `*`. 
-* Solution: Multiplying a and b is basically like adding a to itself b times. Ex: `5 * 4 = 5 + 5 + 5 + 5 = 5 + (4-1)`
+* Solution: Multiplying a and b is basically like adding a to itself b times. Ex: `5 * 4 = 5 + 5 + 5 + 5`
 
 * Using iterative approach:
 
