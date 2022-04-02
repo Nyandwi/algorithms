@@ -28,3 +28,10 @@ def swap(a,b):
     a = b ^ a # a = a ^ a^ b = a^a^b = b^0 = b
     
     return a, b
+
+# Other method: just swap in place
+def swap(a,b):
+
+    a,b = b, a
+    
+    return a,b

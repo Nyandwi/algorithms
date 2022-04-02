@@ -15,10 +15,12 @@ def shuffle_cards(cards):
         
         rand = random.randint(0,i)
         
-        temp = cards[rand]
-        cards[rand] = cards[i] 
-        cards[i] = temp
+        # temp = cards[rand]
+        # cards[rand] = cards[i] 
+        # cards[i] = temp
+
+        cards[i], cards[rand] = cards[rand], cards[i]
         
     return cards
 
-#shuffle_cards([1,2,3,4,5])
+print(shuffle_cards([1,2,3,4,5]))

@@ -4,7 +4,7 @@
 
 #Source:leetcode
 
-# Given Given an array of integers nums and an integer target, 
+# Given an array of integers nums and an integer target, 
 # Return indices of the two numbers such that they add up to target.
 def two_sum(arr, target):
     """
@@ -31,8 +31,6 @@ arr = [1,3,4,5]
             
 i1, i2 = two_sum(arr, 9)
 print(f"{i1}, {i2}")
-
-Runtime: O(logn)
 
 # 2nd Method: COMPLIMENT METHOD
 
